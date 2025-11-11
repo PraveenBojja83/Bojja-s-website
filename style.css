@@ -321,7 +321,7 @@ footer {
 
   nav ul {
     display: flex;
-    gap: 0.5px;
+    gap: 0.3px;
     margin-bottom: 0;
     width: 100%;
     font-size: 0.6rem;
@@ -335,8 +335,8 @@ footer {
   }
 
   nav ul li a {
-    width: 90%;
-    padding: 8px 0;
+    width: 100%;
+    padding: 7px 0;
     text-align: left;
     font-size: 0.5rem;
   }
