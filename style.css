@@ -321,15 +321,17 @@ footer {
 
   nav ul {
     display: flex;
-    gap: 3px;
+    gap: 2px;
     margin-bottom: 0;
     width: 100%;
+    font-size: 0.7rem;
     
   }
 
   nav ul li {
     width: 100%;
     display: flex;
+   
   }
 
   nav ul li a {
