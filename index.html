@@ -31,6 +31,7 @@
     <div class="ContactButtoncontainer">
         <a href="contact.html" class="btn">Get Started</a>
     </div>
+    <div class="container"></div>
   </main>
 
   <footer>
@@ -38,5 +39,15 @@
       <p>&copy; 2025 BojjasTekhub IT Solutions. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+        // Dynamically create 20 circle divs with unique --i custom property
+        const container = document.querySelector('.container');
+        for (let i = 0; i < 20; i++) {
+            const div = document.createElement('div');
+            div.className = 'circle';
+            div.style.setProperty('--i', i);
+            container.appendChild(div);
+        }
+    </script>
 </body>
 </html>
