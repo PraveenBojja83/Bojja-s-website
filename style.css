@@ -321,7 +321,7 @@ footer {
 
   nav ul {
     display: flex;
-    gap: 2px;
+    gap: 1px;
     margin-bottom: 0;
     width: 100%;
     font-size: 0.6rem;
