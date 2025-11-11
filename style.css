@@ -149,7 +149,7 @@ nav ul li a:hover {
 
 
 /* servicespage specific */
-/*servicesPagecontainer*/
+
 .servicesPagecontainer{
   gap: 10px;
 }
@@ -335,9 +335,10 @@ footer {
   }
 
   nav ul li a {
-    width: 100%;
+    width: 90%;
     padding: 8px 0;
     text-align: left;
+    font-size: 0.6rem;
   }
 
   header, .navbarcontainer {
